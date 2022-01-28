@@ -1,6 +1,9 @@
 *{
 	font-family: "Roboto", sans-serif;
 }
+.container{
+	margin-bottom: 10px;
+}
 h2{
 	font-family: "Monserrat", sans-serif;
 	font-weight: bold;
@@ -18,9 +21,9 @@ html{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-/*	background-image: url('img/bg.jpg');
+	/*background-image: url('img/drawing.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;*/
+	background-size: 100% 75% ;*/
 }
 #picture{
 	border-radius: 100%;
@@ -34,5 +37,47 @@ html{
 .date{
 	font-weight: bold;
 }
-.table{
+
+
+/* SCREEN MEDIA */
+@media screen and (max-width: 300px) {
+  #profile{
+  	text-align: center;
+  	background-color: grey;
+  }
+  *{
+  	position: fixed;
+  }
+}
+
+
+
+/* ICONS */
+#educ{
+	max-width: 50px;
+	max-height: 50px;
+	margin-top: -8%;
+	margin-left: 20%;
+}
+#cert{
+	max-width: 50px;
+	max-height: 50px;
+	margin-top: -8%;
+	margin-left: 22%;
+}
+
+#insta{
+	max-width: 40px;
+	max-height: 40px;
+}
+#email{
+	max-width: 40px;
+	max-height: 40px;
+}
+#number{
+	max-width: 40px;
+	max-height: 40px;
+}
+.icon{
+	text-align: right;
 }
