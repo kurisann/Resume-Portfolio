@@ -139,6 +139,22 @@ html{
 		background-color: grey;
 		margin-top: 10%;
 	}
+	#contact{
+		font-size: 15px;
+	}
+	#contact h3{
+		font-size: 20px;
+	}
+	#exp{
+		font-size: 15px;
+	}
+	#list-tab{
+		width: 200px;
+	}
+	.tab-content{
+		top: 100px;
+		left: -500px;
+	}
 }
 
 /* FONTS */
