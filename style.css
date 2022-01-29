@@ -2,12 +2,11 @@
 	font-family: serif;
 }
 body{
-	background-color: #515254;
 	background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
 	background-size: cover;
 }
 .container-fluid{
-	padding: 15% 0.5% 15% 0.5%;
+	padding: 10% 0.5% 20% 0.5%;
 	background-color: ;
 }
 h2{
@@ -23,6 +22,8 @@ html{
 }
 /* PROFILE */
 #profile{
+	color: #95edf0;
+	text-align: center;
 	/*background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
 	background-repeat: no-repeat;
 	background-size: 100% 75% ;*/
@@ -36,10 +37,12 @@ html{
 	margin-bottom: 10px;*/
 	/*box-shadow: 0px 0px 50px 3px gray;*/
 }
+
 /* PROFILE */
 
 /* CERTIFICATE */
 #certificate{
+	color: #16171a;
 	border-radius: 5px;
 	background-image: url('https://img.freepik.com/free-photo/blurred-conference-room-background_63313-687.jpg?size=626&ext=jpg');
 	background-size: cover;
@@ -58,14 +61,17 @@ html{
 	background-image: url('https://assets.foolproof.co.uk/public/content/24d4c59ca3/51b3f7f1-a012-412c-90d9-7ae3924685d9.jpg');
 	background-size: cover;
 }
-
 .card{
 	max-width: 30%;
 	height: auto;
 	opacity: 0.5;
+	margin-left: 10%;
 }
 .card p{
 	text-align: justify;
+}
+#exp h1{
+	color: #c7c7c7;
 }
 .card:hover{
 	opacity: 1.0;
@@ -95,22 +101,18 @@ html{
 
 /* SCREEN MEDIA */
 @media screen and (max-width: 400px) {
-  #profile{
-  	text-align: center;
-  	background-color: grey;
-  }
-  *{
-  	position: fixed;
-  }
+	body{
+		background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
+		background-size: cover;
+	}
+	#profile{
+		text-align: justify;
+		background-color: grey;
+		margin-top: 10%;
+	}
 }
 
 /* FONTS */
-#about{
-	text-align: justify;
-}
-#font-prof{
-	text-align: center;
-}
 .date{
 	font-weight: bold;
 }
