@@ -1,5 +1,5 @@
 *{
-	font-family: serif;
+	font-family: 'Courier New', monospace;
 }
 body{
 	background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
@@ -15,6 +15,10 @@ h2{
 }
 html{
 	scroll-behavior: smooth;
+}
+.carousel-inner{
+	text-align: center;
+	border-radius: 10px;
 }
 .nav-link:hover{
 	background-color: #606dd1;
@@ -47,6 +51,10 @@ html{
 	background-image: url('https://img.freepik.com/free-photo/blurred-conference-room-background_63313-687.jpg?size=626&ext=jpg');
 	background-size: cover;
 }
+.cert{
+	border: 5px dotted; black;
+	background-color: #c7c9b9;
+}
 /* CERTIFICATE */
 
 /* EDUCATION */
@@ -54,6 +62,11 @@ html{
 	background-image: url('https://www.thebalancecareers.com/thmb/hKctLkuZxqFGd3XpQCUjQBjSPjQ=/3436x2577/smart/filters:no_upscale()/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg');
 	background-size: cover;
 }
+.educ{
+	border: 5px dotted black;
+	background-color: #c0d8ed;
+}
+
 /* EDUCATION */
 
 /* EXPERIENCE */
@@ -62,30 +75,46 @@ html{
 	background-size: cover;
 }
 .card{
-	max-width: 30%;
+	max-width: 100%;
 	height: auto;
-	opacity: 0.5;
 	margin-left: 10%;
 }
 .card p{
-	text-align: justify;
+	text-align: center;
 }
 #exp h1{
-	color: #c7c7c7;
+	color: whitesmoke;
 }
-.card:hover{
-	opacity: 1.0;
+#exp h5{
+	text-align: center;
 }
+
 .card-head{
-	border-bottom: 1px double;
-	background-image: url('');
-	background-size: cover;
+	border-bottom: 5px double;
+	text-align: center;
 }
 #exp-img1{
 	width: 100%;
 	height: 100%;
 }
 /* EXPERIENCE */
+
+
+/* SKILLS */
+#skills{
+	background-image: url('https://img.freepik.com/free-photo/brain-light-bulb-human-brain-glowing-inside-light-bulb-dark-blue-background_34998-112.jpg?size=626&ext=jpg');
+	background-size: cover;
+}
+#skills h1, h6{
+	color: white;
+}
+.instagram-media{
+	width: 200px !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
+
+/* SKILLS */
 
 
 /* FOOTER */
@@ -116,6 +145,9 @@ html{
 .date{
 	font-weight: bold;
 }
+#about{
+	font-size: 25px;
+}
 
 
 
@@ -133,18 +165,7 @@ html{
 	margin-left: 22%;
 }
 
-#insta{
-	max-width: 40px;
-	max-height: 40px;
-}
-#email{
-	max-width: 40px;
-	max-height: 40px;
-}
-#number{
-	max-width: 40px;
-	max-height: 40px;
-}
+
 .icon{
 	text-align: right;
 }
