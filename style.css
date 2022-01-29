@@ -1,8 +1,14 @@
 *{
-	font-family: "Roboto", sans-serif;
+	font-family: serif;
 }
-.container{
-	margin-bottom: 10px;
+body{
+	background-color: #515254;
+	background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
+	background-size: cover;
+}
+.container-fluid{
+	padding: 15% 0.5% 15% 0.5%;
+	background-color: ;
 }
 h2{
 	font-family: "Monserrat", sans-serif;
@@ -15,13 +21,9 @@ html{
 	background-color: #606dd1;
 	border-radius: 5px;
 }
+/* PROFILE */
 #profile{
-	height: 80vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/*background-image: url('img/drawing.jpg');
+	/*background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
 	background-repeat: no-repeat;
 	background-size: 100% 75% ;*/
 }
@@ -29,18 +31,70 @@ html{
 	border-radius: 100%;
 	height: 200px;
 	width: 200px;
-	border: 5px;
+	/*border: 5px;
 	border-style: solid;
-	margin-bottom: 10px;
-	box-shadow: 0px 0px 20px 10px gray;
+	margin-bottom: 10px;*/
+	/*box-shadow: 0px 0px 50px 3px gray;*/
 }
-.date{
-	font-weight: bold;
+/* PROFILE */
+
+/* CERTIFICATE */
+#certificate{
+	border-radius: 5px;
+	background-image: url('https://img.freepik.com/free-photo/blurred-conference-room-background_63313-687.jpg?size=626&ext=jpg');
+	background-size: cover;
 }
+/* CERTIFICATE */
+
+/* EDUCATION */
+#education{
+	background-image: url('https://www.thebalancecareers.com/thmb/hKctLkuZxqFGd3XpQCUjQBjSPjQ=/3436x2577/smart/filters:no_upscale()/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg');
+	background-size: cover;
+}
+/* EDUCATION */
+
+/* EXPERIENCE */
+#exp{
+	background-image: url('https://assets.foolproof.co.uk/public/content/24d4c59ca3/51b3f7f1-a012-412c-90d9-7ae3924685d9.jpg');
+	background-size: cover;
+}
+
+.card{
+	max-width: 30%;
+	height: auto;
+	opacity: 0.5;
+}
+.card p{
+	text-align: justify;
+}
+.card:hover{
+	opacity: 1.0;
+}
+.card-head{
+	border-bottom: 1px double;
+	background-image: url('');
+	background-size: cover;
+}
+#exp-img1{
+	width: 100%;
+	height: 100%;
+}
+/* EXPERIENCE */
+
+
+/* FOOTER */
+.footer{
+	padding: 10px;
+	color: #62b582;
+	padding-bottom: 50px;
+}
+
+/* FOOTER */
+
 
 
 /* SCREEN MEDIA */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   #profile{
   	text-align: center;
   	background-color: grey;
@@ -48,6 +102,17 @@ html{
   *{
   	position: fixed;
   }
+}
+
+/* FONTS */
+#about{
+	text-align: justify;
+}
+#font-prof{
+	text-align: center;
+}
+.date{
+	font-weight: bold;
 }
 
 
@@ -62,7 +127,7 @@ html{
 #cert{
 	max-width: 50px;
 	max-height: 50px;
-	margin-top: -8%;
+	margin-top: -6%;
 	margin-left: 22%;
 }
 
@@ -81,3 +146,4 @@ html{
 .icon{
 	text-align: right;
 }
+
