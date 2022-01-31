@@ -16,10 +16,6 @@ h2{
 html{
 	scroll-behavior: smooth;
 }
-.carousel-inner{
-	text-align: center;
-	border-radius: 10px;
-}
 .nav-link:hover{
 	background-color: #606dd1;
 	border-radius: 5px;
@@ -29,8 +25,7 @@ html{
 	color: #95edf0;
 	text-align: center;
 	/*background-image: url('https://external-preview.redd.it/IKtuYb9a_7nTKl3KT7zso1ijil1PbpBbVTsAuYLnzKg.jpg?auto=webp&s=6274dc9f7c5626b0931a0ce70b97c30d76e2db2b');
-	background-repeat: no-repeat;
-	background-size: 100% 75% ;*/
+	background-size: cover;*/
 }
 #picture{
 	border-radius: 100%;
@@ -103,16 +98,28 @@ html{
 
 /* SKILLS */
 #skills{
-	background-image: url('https://img.freepik.com/free-photo/brain-light-bulb-human-brain-glowing-inside-light-bulb-dark-blue-background_34998-112.jpg?size=626&ext=jpg');
+	/*background-image: url('https://img.freepik.com/free-photo/brain-light-bulb-human-brain-glowing-inside-light-bulb-dark-blue-background_34998-112.jpg?size=626&ext=jpg');*/
+	background-image: url('https://www.mckinsey.com/~/media/mckinsey/mckinsey%20quarterly/the%20five%20fifty/soft-skills-1536x1536.png');
 	background-size: cover;
+}
+#skills img{
+	margin: 20px;
 }
 #skills h1, h6{
 	color: white;
+	padding: 10px;
+}
+.tab-content{
+	background-color: #656e85;
+	border-radius: 10px;
 }
 .instagram-media{
-	width: 200px !important;
-	margin-left: 10% !important;
+	width: 150px !important;
+	margin-left: 40% !important;
 	margin-right: 10% !important;
+}
+.tab-content{
+	text-align: center;
 }
 
 /* SKILLS */
@@ -124,9 +131,17 @@ html{
 	color: #62b582;
 	padding-bottom: 50px;
 }
+.footer a{
+  text-decoration: none;
+}
 
 /* FOOTER */
 
+footer{
+	margin: 0;
+	text-align: center;
+	bottom: 0;
+}
 
 
 /* SCREEN MEDIA */
@@ -161,9 +176,6 @@ html{
 /* FONTS */
 .date{
 	font-weight: bold;
-}
-#about{
-	font-size: 25px;
 }
 
 
